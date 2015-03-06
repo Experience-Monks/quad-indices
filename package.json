@@ -1,0 +1,43 @@
+{
+  "name": "quad-indices",
+  "version": "1.0.0",
+  "description": "creates the indices for a quad (two triangles)",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "dtype": "^0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "quad",
+    "gl",
+    "stack.gl",
+    "ecosystem:stackgl",
+    "mesh",
+    "cells",
+    "elements",
+    "indicesindex",
+    "indexed",
+    "sprite",
+    "batch",
+    "vertices"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/quad-indices.git"
+  },
+  "homepage": "https://github.com/Jam3/quad-indices",
+  "bugs": {
+    "url": "https://github.com/Jam3/quad-indices/issues"
+  }
+}
