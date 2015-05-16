@@ -31,6 +31,9 @@ test('creates the indices for a quad mesh (two triangles)', function(t) {
     quad(out, { start: 6 })
     t.deepEqual(out, [ 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 2, 3 ])
 
+    var buf = new Buffer(6)
+    quad(buf)
+    t.equal(bufferEqual(buf, new Buffer([0, 1, 2, 0, 2, 3])), true)
 
     //number param is no longer documented but still supported
     out = empty.slice()    
