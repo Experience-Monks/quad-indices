@@ -10,9 +10,12 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "dtype": "^1.0.0"
+    "an-array": "^1.0.0",
+    "dtype": "^1.0.0",
+    "is-buffer": "^1.0.2"
   },
   "devDependencies": {
+    "buffer-equals": "^1.0.3",
     "tape": "^3.5.0"
   },
   "scripts": {
