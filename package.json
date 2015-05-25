@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "an-array": "^1.0.0",
-    "dtype": "^1.0.0",
+    "dtype": "^2.0.0",
     "is-buffer": "^1.0.2"
   },
   "devDependencies": {
