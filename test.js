@@ -17,7 +17,6 @@ test('creates the indices for a quad mesh (two triangles)', function(t) {
     t.deepEqual(quad({ type: 'uint8_clamped' }), 
       new Uint8ClampedArray([0, 1, 2, 0, 2, 3]), 
       'dtype uint8_clamped')
-    t.equal(bufferEqual(quad({ type: 'buffer' }), new Buffer([0, 1, 2, 0, 2, 3])), true, 'accepts buffer')
 
     var empty = []
     for (var i=0; i<12; i++)
